@@ -34,6 +34,8 @@ ORDER BY YEAR(o.order_date), MONTH(o.order_date)
 
 **Skills:** Date Functions (YEAR, MONTH), JOIN, GROUP BY, ORDER BY, Aggregations (SUM)
 
+![Query 1 Result](1.png)
+
 ---
 
 ### Query 2 — Top 5 Customers by Revenue
@@ -51,6 +53,8 @@ LIMIT 5
 
 **Skills:** JOIN (3 tables), GROUP BY, ORDER BY, LIMIT, Aggregations (SUM)
 
+![Query 2 Result](2.png)
+
 ---
 
 ### Query 3 — Repeat Customers
@@ -65,6 +69,8 @@ HAVING number_of_orders > 1
 ```
 
 **Skills:** JOIN, GROUP BY, HAVING, Aggregations (COUNT)
+
+![Query 3 Result](3.png)
 
 ---
 
@@ -90,6 +96,8 @@ ORDER BY total_rev_cliente DESC
 
 **Skills:** CTE (WITH AS), Subquery, CASE WHEN, JOIN, Aggregations (SUM, AVG)
 
+![Query 4 Result](4.png)
+
 ---
 
 ### Query 5 — Top-Selling Category per Region
@@ -108,6 +116,8 @@ WHERE ranking = 1
 ```
 
 **Skills:** Window Function (ROW_NUMBER), PARTITION BY, Subquery, JOIN (3 tables), Aggregations (SUM)
+
+![Query 5 Result](5.png)
 
 ---
 
